@@ -1166,7 +1166,7 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
 
 @media (min-width: 992px) {
     #profile .profile-text {
-        padding-top: 100px;
+        /*padding-top: 100px;*/
     }
 }
 
@@ -1286,7 +1286,7 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
 }
 
 #profile .pp-wrapper .profile-picture.style-two img {
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 #profile .pp-wrapper .profile-picture.style-two .title {
@@ -1318,7 +1318,7 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
 }
 
 .portfolio {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .portfolio .item {
