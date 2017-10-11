@@ -354,7 +354,7 @@ p.extend-details {
 .cd-intro {
     padding-top: 140px;
     padding-bottom: 140px;
-    background-color: #EC0856;
+    background-color: #484869;
     text-align: center;
     color: #fff;
     margin-bottom: 50px
@@ -528,8 +528,8 @@ p.extend-details {
 .full-section-two {
     width: 100%;
     margin-top: 120px;
-    margin-bottom: 60px;
-    padding: 60px 60px 60px 60px;
+    /*margin-bottom: 60px;*/
+    padding: 60px 60px 60px 60px!important;
 
 }
 
@@ -546,7 +546,7 @@ p.extend-details {
     font-size: 25px;
     color: #fff;
     text-align: left;
-    margin-top: 50px;
+    margin-top: 50px!important;
     margin-left: -15px;
 }
 
@@ -1830,7 +1830,7 @@ h1.jprt-item-title {
 }
 
 .full-download {
-    margin-top: 100px;
+    /*margin-top: 100px;*/
     background-color: #EC0856;
     padding-top: 100px;
     padding-bottom: 100px
