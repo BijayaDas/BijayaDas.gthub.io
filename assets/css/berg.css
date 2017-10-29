@@ -2973,6 +2973,7 @@ button.mfp-arrow:active {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 1px;
+    width: 168px;
 }
 
 #contact .contact-details h2 {

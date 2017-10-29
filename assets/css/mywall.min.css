@@ -642,7 +642,8 @@ p.extend-details {
     background-color: #FFF;
     padding: 25px;
     border-radius: 7px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    height: 575px;
 }
 
 .title-four {
@@ -676,6 +677,15 @@ p.extend-details {
     padding-bottom: 18px
 }
 
+.sub-area-skill {
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFF;
+    margin-top: 37px;
+}
+.xyz-space {
+    margin-bottom: -15px;
+}
 .expert {
     font-size: 20px;
     padding-bottom: 18px;
