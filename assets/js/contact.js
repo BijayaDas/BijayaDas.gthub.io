@@ -49,15 +49,12 @@ $(function(){
         $.ajax({
             url: $('#contact-form').attr('action'),
             type: 'post',
+            dataType: 'json',
             data: $(this).serialize(),
             success: function(data){
-                if (data == true){
-                    $('#contact-form button').html("<i class='icon-Paper-Plane'></i> " + okMessage);
-                    $('#contact-form')[0].reset();
-                } else {
-                    $('#contact-form button').html("<i class='icon-Danger'></i> " + errorMessage);
-                }
-                
+                $('#contact-form button').html("<i class='icon-Paper-Plane'></i> " + okMessage);
+                $('#contact-form')[0].reset();
+                swal("Email Sent Successfully", "First of all Great Decision!.Please be assured you will recieve an email from me within 24 hours.", "success");
                 setTimeout(function(){
                     $('#contact-form button').html(buttonCopy);
                 }, 3000);
