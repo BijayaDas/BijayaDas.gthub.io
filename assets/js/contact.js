@@ -49,7 +49,6 @@ $(function(){
         $.ajax({
             url: $('#contact-form').attr('action'),
             type: 'post',
-            dataType: 'json',
             data: $(this).serialize(),
             success: function(data){
                 if (data == true){
