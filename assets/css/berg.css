@@ -2029,7 +2029,7 @@ button.mfp-arrow:active {
 }
 
 .panel-group.resume .resume-item .panel .panel-heading .panel-title {
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 @media (max-width: 567px) {

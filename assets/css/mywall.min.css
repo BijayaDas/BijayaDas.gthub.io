@@ -643,7 +643,7 @@ p.extend-details {
     padding: 25px;
     border-radius: 7px;
     margin-bottom: 20px;
-    height: 575px;
+    /*height: 575px;*/
 }
 
 .title-four {
@@ -702,7 +702,7 @@ p.extend-details {
 
 .text-awsm {
     font-size: 21px;
-    text-align: center;
+    text-align: left;
     padding-top: 13px;
     padding-bottom: 14px;
     color: #758599
