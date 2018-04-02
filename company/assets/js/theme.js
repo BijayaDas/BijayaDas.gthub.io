@@ -689,7 +689,7 @@ $(function() {
     var th = $(this);
     $.ajax({
       type: "POST",
-      url: "mail.php", //Change (mail.php path)
+      url: "//formspree.io/cygnini.tech@gmail.com", //Change (mail.php path)
       data: th.serialize()
     }).done(function() {
       alert("Thank you. Your message has been sent!");
