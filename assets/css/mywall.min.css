@@ -651,7 +651,7 @@ p.extend-details {
     padding: 25px;
     border-radius: 7px;
     margin-bottom: 20px;
-    height: 500px;
+    /*height: 500px;*/
 }
 
 .title-four {
