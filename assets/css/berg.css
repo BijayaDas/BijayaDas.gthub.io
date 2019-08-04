@@ -992,12 +992,12 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
 /*---------------------------------------------------------------------*/
 
 .section .section-wrapper > .section-content {
-    padding: 80px 0px;
+    padding: 50px 0px;
 }
 
 @media (min-width: 768px) {
     .section .section-wrapper > .section-content {
-        padding: 100px 0px;
+        padding: 50px 0px;
     }
 }
 
@@ -1138,12 +1138,15 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
 /*---------------------------------------------------------------------*/
 
 #profile {
-    background-color: #0d0c0d;
+    background-color: #555;
+    /*background-image: url("../images/bg-profile.png");*/
 }
 
 @media (min-width: 992px) {
     #profile .section-wrapper > .section-content {
-        padding: 0px;
+        /*padding: 0px;*/
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
 
@@ -1294,7 +1297,7 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
     width: 100%;
     height: 55px;
     line-height: 55px;
-    background-color: #2e2e2e;
+    background-color: #31708f;
     font-weight: 700;
     text-align: center;
     letter-spacing: 2px;
@@ -1873,7 +1876,9 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 
 #resume {
-    background-color: #171717;
+    background-color: #28595c;
+    background-image: url("../images/bg-education.png");
+    background-size: contain;
 }
 
 #resume h3 {
@@ -1887,7 +1892,7 @@ button.mfp-arrow:active {
 }
 
 #resume .education {
-    margin-top: 30px;
+    /*margin-top: 30px;*/
 }
 
 #resume .work-experience {
@@ -2055,7 +2060,7 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 
 #references {
-    background-image: url('../images/bg-hero.jpg');
+    /*background-image: url('../images/bg-hero.jpg');*/
 }
 
 #references .section-wrapper > .section-content {
@@ -2238,7 +2243,7 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 
 #skills {
-    background-color: #0d0c0d;
+    background-color: #222222;
 }
 
 #skills .section-wrapper > .section-content {
@@ -2331,7 +2336,7 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 
 #knowledge {
-    background-color: #0d0c0d;
+    background-image: url("../images/hacker.jpg");
 }
 
 #knowledge .section-wrapper > .section-content {
@@ -2411,12 +2416,18 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 
 #accolades {
-    background-color: #0d0c0d;
+    /*background-color: #0d0c0d;*/
+    background-image: url("../images/accolads.jpg");
 }
 
 #accolades .section-wrapper > .section-content {
     padding-top: 0px;
 }
+#accolades .section-wrapper {
+    background: #0d0c0d;
+    opacity: 0.7;
+}
+
 
 #accolades .bookmark {
     margin-top: 80px;
@@ -2490,7 +2501,7 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 
 #milestones {
-    background-image: url("../images/bg-hero.jpg");
+    background-image: url("../images/bg_skills2.jpg");
 }
 
 #milestones.parallax-yes {
@@ -2813,7 +2824,7 @@ button.mfp-arrow:active {
 /*---------------------------------------------------------------------*/
 
 #contact {
-    background-color: #121336;
+    /*background-color: #121336;*/
 }
 
 

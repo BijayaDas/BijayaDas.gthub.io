@@ -352,12 +352,12 @@ p.extend-details {
 }
 
 .cd-intro {
-    padding-top: 140px;
-    padding-bottom: 140px;
-    background-color: #484869;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    background-color: #31708f;
     text-align: center;
     color: #fff;
-    margin-bottom: 50px
+    /*margin-bottom: 20px;*/
 }
 
 .cd-headline.letters.type {
@@ -527,14 +527,14 @@ p.extend-details {
 
 .full-section-two {
     width: 100%;
-    margin-top: 120px;
+    /*margin-top: 120px;*/
     /*margin-bottom: 60px;*/
     padding: 60px 60px 60px 60px!important;
 
 }
 
 .bg-skills {
-    background: url(../images/bg_skills.png?1508011304) no-repeat center center;
+    background: url(../images/bg_skills.jpg) no-repeat center center;
     background-size: cover
 }
 
@@ -1196,22 +1196,25 @@ p.extend-details {
 .nav-tabs>li.active>a:hover {
     color: #FFF;
     cursor: default;
-    background-color: #EC0856;
-    border: 2px solid #EC0856;
+    background-color: #b93366;
+    border: 2px solid #b93366;
     -webkit-transition: all .5s;
     transition: all .5s
 }
 
 .tab-content {
-    margin-top: 50px
+    margin-top: 0px
 }
 
 .title-wk {
     text-align: center;
     font-size: 34px;
-    color: #FF2A73;
+    color: #ddd;
     font-weight: 300;
-    padding-top: 20px
+    padding: 10px;
+    font-weight: bolder;
+        background-color: #31708f;
+    /*border-radius: 50%;*/
 }
 
 .text-wk {
@@ -1849,9 +1852,9 @@ h1.jprt-item-title {
 
 .full-download {
     /*margin-top: 100px;*/
-    background-color: #EC0856;
-    padding-top: 100px;
-    padding-bottom: 100px
+    background-color: #31708f;
+    padding-top: 0px;
+    padding-bottom: 0px
 }
 
 .btn-dwnld {
@@ -2010,7 +2013,7 @@ h1.jprt-item-title {
     margin-left: auto;
     font-size: 25px;
     color: #fff;
-    background-color: #1087EA;
+    background-color: #31708f;
     border-radius: 50px;
     padding: 15px 20px;
     display: block;
