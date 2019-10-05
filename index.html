@@ -72,16 +72,16 @@
 <script type="text/javascript">
 
     $(function() {
-        $("#header").load("layouts/_header.html");
-        $("#main_container").load("partials/_start.html #content", function() {
+        $("#header").load("layouts/header.html");
+        $("#main_container").load("partials/start.html #content", function() {
           $(".content").unwrap();
           Skill.init();
         });
-        $("#footer").load("layouts/_footer.html");
+        $("#footer").load("layouts/footer.html");
         $(document).on('click', "nav ul li a", function(e){
             e.preventDefault();
             $(".active").removeClass("active");
-            html = "partials/_"+this.className+".html #content";
+            html = "partials/"+this.className+".html #content";
             $("#main_container").load(html, function() {
               $(".content").unwrap();
               Skill.init();
