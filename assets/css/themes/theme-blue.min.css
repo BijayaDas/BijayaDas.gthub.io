@@ -1913,7 +1913,7 @@ img {
 }
 
 .animated {
-	visibility: hidden
+	visibility: visible;
 }
 
 .animated.visible {
@@ -4254,7 +4254,7 @@ html.locked-scrolling body {
 }
 
 .bg-image>img {
-	display: none
+	display: block;
 }
 
 .bg-image+* {
