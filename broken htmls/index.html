@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Title -->
+<title>Bijaya Krishna Das - Personal Website & Blog</title>
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/favicon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon_152x152.png">
+
+<!-- Google Web Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:600,700" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+
+<!-- CSS Styles -->
+<link rel="stylesheet" href="assets/css/styles.css" />
+
+<!-- CSS Base -->
+<link id="theme" rel="stylesheet" href="assets/css/themes/theme-blue.min.css" />
+
+<style>
+.special_text {
+  display: block !important;
+  font-family: 'Grand Hotel',cursive !important;
+  margin: 0 0 30px;
+}
+</style>
+
+</head>
+
+<body class="header-vertical">
+
+<!-- Loader -->
+<div id="page-loader" class="bg-white">
+    <svg class="loader" width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><circle class="circle" fill="none" stroke-width="2" stroke-linecap="round" cx="16" cy="16" r="14"></circle></svg>
+    <span class="loading-txt text-muted">Loading...</span>
+</div>
+<!-- Loader / End -->
+
+<!-- Header -->
+<div id="header"></div> 
+<!-- Header / End -->
+
+<!-- Content -->
+<div id="main_container"></div>
+<!-- Content / End -->
+
+<!-- Footer -->
+<!-- <div id="footer"></div> -->
+<!-- Footer / End -->
+
+<!-- Mobile Navigation Toggle -->
+<div id="mobile-nav-toggle"><span></span><span></span><span></span></div>
+
+<!-- JS Libraries -->
+<script src="assets/js/jquery-2.2.4.min.js"></script>
+
+<!-- JS Plugins -->
+<script src="assets/js/plugins.js"></script>
+
+<!-- JS Core -->
+<script src="assets/js/core.js"></script>
+
+<script type="text/javascript">
+
+    $(function() {
+        $("#header").load("layouts/header.html");
+        $("#main_container").load("partials/start.html #content", function() {
+          $(".content").unwrap();
+          Skill.init();
+        });
+        $("#footer").load("layouts/footer.html");
+        $(document).on('click', "nav ul li a", function(e){
+            e.preventDefault();
+            $(".active").removeClass("active");
+            html = "partials/"+this.className+".html #content";
+            $("#main_container").load(html, function() {
+              $(".content").unwrap();
+              Skill.init();
+              setMenuSelector();
+            });
+            $(this).addClass("active");
+        });
+        
+    });
+
+</script>
+
+</body>
+
+</html>

@@ -1634,7 +1634,7 @@ button.mfp-arrow:active {
 
 @media (min-width: 768px) {
     .services .item.top > .inner-content {
-        padding: 15px 28px 25px 28px;
+        padding: 15px 2px 25px 28px;
     }
 }
 
