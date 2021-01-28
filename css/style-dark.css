@@ -44,7 +44,7 @@ Table of Content
 	text-decoration: none !important;
 }
 
-*:after, 
+*:after,
 *:before {
 	-webkit-box-sizing: border-box;
 			box-sizing: border-box;
@@ -69,7 +69,7 @@ a {
 			transition: all .3s ease-in-out;
 }
 
-a:hover, 
+a:hover,
 a:focus {
 	color: #fff;
 }
@@ -81,7 +81,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	padding: 0; 
+	padding: 0;
 	color: #fff;
 	font-weight: 600;
 }
@@ -103,7 +103,7 @@ h4 {
 }
 
 i, em {
-	font-style: normal; 
+	font-style: normal;
 }
 
 img {
@@ -161,7 +161,7 @@ blockquote span img {
 	font-size: 16px;
 	line-height: 45px;
 	text-align: center;
-	background-color: #0e0f10;
+	background-color: #22b571;
 	text-transform: uppercase;
 	transform-style: preserve-3d;
 	backface-visibility: hidden;
@@ -194,7 +194,7 @@ blockquote span img {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	top: 0;	
+	top: 0;
 	left: 0;
 	-webkit-border-radius: 30px;
 			border-radius: 30px;
@@ -256,12 +256,12 @@ blockquote span img {
 .audio-on .music-bg .lines span:nth-child(1) {
     -webkit-animation: musicline 2s 0.5s ease-out alternate infinite;
     		animation: musicline 2s 0.5s ease-out alternate infinite;
-}  
+}
 
 .audio-on .music-bg .lines span:nth-child(2) {
     -webkit-animation: musicline 2s 1s ease-out alternate infinite;
     		animation: musicline 2s 1s ease-out alternate infinite;
-} 
+}
 
 .audio-on .music-bg .lines span:nth-child(3) {
     -webkit-animation: musicline 2s 1.5s ease-out alternate infinite;
@@ -1130,8 +1130,8 @@ nav {
  	background-image: url(../img/slider/slide-3.jpg);
 }
 
-.slide-kenburns-1, 
-.slide-kenburns-2, 
+.slide-kenburns-1,
+.slide-kenburns-2,
 .slide-kenburns-3 {
  	background-repeat: no-repeat;
  	background-position: center;
@@ -1211,15 +1211,15 @@ nav {
 	color: #fff;
 	margin: 0;
 	padding: 0;
-	overflow: auto; 
+	overflow: auto;
 	-webkit-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
 			transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
 }
 
-.pt-about, 
+.pt-about,
 .pt-resume,
 .pt-services,
-.pt-portfolio, 
+.pt-portfolio,
 .pt-blog,
 .pt-contact {
 	opacity: 0;
@@ -1239,10 +1239,10 @@ nav {
 	z-index: 9;
 }
 
-.pt-about, 
-.pt-resume, 
+.pt-about,
+.pt-resume,
 .pt-services,
-.pt-portfolio, 
+.pt-portfolio,
 .pt-blog,
 .pt-contact {
 	background-color: #0e0f10;
@@ -1333,7 +1333,7 @@ nav {
 	color: #bbb;
 	-webkit-transform: scale(1.2);
     		transform: scale(1.2);
-} 
+}
 
 .page .header-box,
 .blog-page .header-box {
@@ -1467,7 +1467,7 @@ blockquote:before,
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	overflow: hidden; 
+	overflow: hidden;
 	-webkit-background-size: cover;
 			background-size: cover;
 	background-position: center;
@@ -2098,11 +2098,11 @@ blockquote:before,
 	-webkit-transition: opacity .4s ease;
 			transition: opacity .4s ease;
 	-webkit-filter: invert(100%);
-			filter: invert(100%);  
+			filter: invert(100%);
 }
 
 .pt-services .clients .client:hover img {
-	opacity: 1; 
+	opacity: 1;
 }
 
 /* ---------------------------------
@@ -2132,7 +2132,7 @@ blockquote:before,
 	-webkit-transition: all .3s;
 			transition: all .3s;
 }
- 
+
 .pt-portfolio .portfolio-filter ul li.active {
 	color: #0e0f10;
 	background-color: #fff;
@@ -2151,7 +2151,7 @@ blockquote:before,
 .pt-portfolio .portfolio-items .item figure img {
 	opacity: 1;
 	width: 100%;
-	height: 100%; 
+	height: 100%;
 	-webkit-transition: all .3s;
 			transition: all .3s;
 }
@@ -2185,7 +2185,7 @@ blockquote:before,
 	-webkit-transition: all .3s;
 			transition: all .3s;
 }
-  
+
 .pt-portfolio .portfolio-items .item figure figcaption p {
 	position: absolute;
 	left: 0;
@@ -2209,7 +2209,7 @@ blockquote:before,
 	color: #fff;
 	font-weight: 900;
 }
- 
+
 .pt-portfolio .portfolio-items .item figure figcaption i {
 	position: absolute;
 	right: 0;
@@ -2222,25 +2222,25 @@ blockquote:before,
 	-webkit-transition: all .3s;
 			transition: all .3s;
 }
- 
+
 .pt-portfolio .portfolio-items .item figure:hover img {
 	opacity: 0.25;
 	-webkit-transform: scale(1.1);
-			transform: scale(1.1); 
+			transform: scale(1.1);
 }
- 
+
 .pt-portfolio .portfolio-items .item figure:hover h3 {
 	opacity: 1;
 }
- 
+
 .pt-portfolio .portfolio-items .item figure:hover p {
-	opacity: 1; 
+	opacity: 1;
 	-webkit-transform: translateX(0%);
 			transform: translateX(0%);
 }
- 
+
 .pt-portfolio .portfolio-items .item figure:hover i {
-	opacity: 1; 
+	opacity: 1;
 	-webkit-transform: translateX(0%);
 			transform: translateX(0%);
 }
@@ -3137,7 +3137,7 @@ blockquote:before,
 	-webkit-transform: translateX(0);
 			transform: translateX(0);
 	-webkit-transition: all .5s ease-in-out;
-			transition: all .5s ease-in-out; 
+			transition: all .5s ease-in-out;
 }
 
 .ajax-portfolio .popup-close {
@@ -3164,7 +3164,7 @@ blockquote:before,
 	-webkit-transform: scale(1.2);
 			transform: scale(1.2);
 }
- 
+
 .ajax-portfolio .content-wrap {
 	position: absolute;
 	top: 0;
@@ -3173,9 +3173,9 @@ blockquote:before,
 	bottom: 0;
 	overflow: auto;
 }
-  
+
 .ajax-portfolio .content-wrap .popup-content {
-	margin-top: 40px; 
+	margin-top: 40px;
 }
 
 .ajax-portfolio .ajax-loader {
@@ -3411,7 +3411,7 @@ blockquote:before,
     bottom: 0;
 }
 
-#preloader .top-side, 
+#preloader .top-side,
 #preloader .bottom-side {
 	position: absolute;
 	width: 100%;
@@ -3930,26 +3930,26 @@ blockquote:before,
 @-webkit-keyframes rotation {
 	from {
 		-webkit-transform: rotate(0deg);
-				transform: rotate(0deg); 
+				transform: rotate(0deg);
 	}
 	to {
 		-webkit-transform: rotate(359deg);
-				transform: rotate(359deg); 
+				transform: rotate(359deg);
 	}
 }
 
 @keyframes rotation {
 	from {
 		-webkit-transform: rotate(0deg);
-				transform: rotate(0deg); 
+				transform: rotate(0deg);
 	}
 	to {
 		-webkit-transform: rotate(359deg);
-				transform: rotate(359deg); 
+				transform: rotate(359deg);
 	}
 }
 
-/* Animation zoomIn */ 
+/* Animation zoomIn */
 @-webkit-keyframes zoomIn {
 	from {
 		opacity: 0;
@@ -3974,7 +3974,7 @@ blockquote:before,
 	}
 }
 
-/* Ken Burns Slide */ 
+/* Ken Burns Slide */
 @-webkit-keyframes kenburnsSlide {
  	0% {
  		opacity: 0;
@@ -3998,7 +3998,7 @@ blockquote:before,
 				transform: scale(1);
 	}
 }
- 
+
 @keyframes kenburnsSlide {
  	0% {
  		opacity: 0;
