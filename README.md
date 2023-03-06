@@ -1,2 +1,0 @@
-# creativist
-My Portfolio.
