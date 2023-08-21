@@ -114,9 +114,9 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 /* background color */
 .bg-black{background: #000000;}
 .bg-dark {background-color: #1d1d21 !important;}
-.bg-blue {background-color: #03a9f5;}
-.bg-pink {background-color: #f033b5;}
-.bg-purple {background-color: #9556f5;}
+.bg-blue {background-color: #03a9f5 !important;}
+.bg-pink {background-color: #f033b5 !important;}
+.bg-purple {background-color: #9556f5 !important;}
 
 /* text-color */
 .main-color{color: #35ab39;}
