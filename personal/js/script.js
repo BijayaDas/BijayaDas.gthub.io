@@ -123,13 +123,13 @@ jQuery(function ($) {
             sortByDimension: true,
             mediaQueries: [ {
                 width: 800,
-                cols: 3,
+                cols: 4,
             }, {
                 width: 767,
-                cols: 2,
+                cols: 3,
             }, {
                 width: 480,
-                cols: 1,
+                cols: 2,
             }],
             gapHorizontal: 15,
             gapVertical: 15,
